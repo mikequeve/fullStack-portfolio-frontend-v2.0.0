@@ -2,10 +2,6 @@
 
 Welcome to my portfolio website repository, this project tryed to show the habilities as a Web Developer I've been improving since I started learning this technologies. It was developed using NextJs - Typescript - Java and Supabase, and deployed in Vercel.
 
-## Tech Stack:
-
-<img src="./public/logos/typescript.png" width="50px"/> <img src="./public/logos/java.png" width="50px"/> <img src="./public/logos/supabase.png" width="50px"/> ![java](./public/logos/java.png) ![supabase](./public/logos/supabase.png)
-
 ### Connect with Me
 
 [![linkedin](https://img.shields.io/badge/Linkedin%20Profile-blue?)](https://linkedin.com/in/mikequeve)
