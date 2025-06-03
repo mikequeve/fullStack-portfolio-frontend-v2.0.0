@@ -9,10 +9,10 @@ const Modal: React.FC<ModalProps> = ({ isModalOpen, setIsModalOpen, imageUrl }) 
       {isModalOpen && (
         <article className='flex-center modal__overlay '>
           <div className='flex-center modal'>
+            <img src={imageUrl} alt='' />
             <button className='flex-center' onClick={() => setIsModalOpen(!isModalOpen)}>
               <X />
             </button>
-            <img src={imageUrl} alt='' />
           </div>
         </article>
       )}
