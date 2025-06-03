@@ -4,7 +4,7 @@ Welcome to my portfolio website repository, this project tryed to show the habil
 
 ## Tech Stack:
 
-![typescript](./public/logos/typescript.png) ![java](./public/logos/java.png) ![supabase](./public/logos/supabase.png)
+<img src="./public/logos/typescript.png" width="50px"/> <img src="./public/logos/java.png" width="50px"/> <img src="./public/logos/supabase.png" width="50px"/> ![java](./public/logos/java.png) ![supabase](./public/logos/supabase.png)
 
 ### Connect with Me
 
