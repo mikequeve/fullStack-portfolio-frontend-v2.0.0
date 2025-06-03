@@ -1,0 +1,30 @@
+.certificate__card {
+  position: relative;
+  width: min(100%, 25.2rem);
+  padding: 1.5rem;
+  background-color: var(--glass);
+  border: solid 1px var(--border-light);
+  border-radius: 10px;
+}
+
+.certificate__card img {
+  width: 22rem;
+  height: 16rem;
+  border-radius: 6px;
+}
+
+.certificate__card-overlay {
+  position: absolute;
+  inset: 0;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.certificate__card:hover .certificate__card-overlay {
+  opacity: 1;
+}

@@ -1,0 +1,33 @@
+.portfolio__content {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.filter__container {
+  width: min(100%, 50rem);
+  padding: 1rem;
+  gap: 1rem;
+  border: solid 1px var(--border-light);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+
+  .filter__btn {
+    width: 50%;
+    appearance: none;
+    height: 3rem;
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Oswald Variable', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.active {
+      background-color: var(--glass-light);
+    }
+  }
+}

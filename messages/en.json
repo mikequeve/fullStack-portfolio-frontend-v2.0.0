@@ -1,0 +1,93 @@
+{
+  "MetaTags": {
+    "title": "Mike.Vega Portfolio",
+    "description": "Michael Quesada Vega - Professional Portfolio Website, Web developer and UI Designer",
+    "keywords": "web developer, frontend, backend, fullstack, react, nextjs, typescript",
+    "author": "Michael Quesada Vega",
+    "ogTitle": "Mike.Vega Portfolio | Web Developer | UI Designer",
+    "ogImage": "./portfolio-screenshot-en.png",
+    "twitterCard": "summary_large_image",
+    "twitterImage": "./portfolio-screenshot-en.png"
+  },
+  "MenuItems": {
+    "home": "Home",
+    "about": "about",
+    "portfolio": "portfolio",
+    "contact": "contact"
+  },
+  "Hero": {
+    "title": "web <span>Devel<img></img>per</span><br></br>UI Designer <div></div> Tech Enthusiast.",
+    "heroText": "Commited to creating innovative, functional and easy-to-use product to help people turning their ideas into digital experiences.",
+    "primaryBtn": "Projects",
+    "secondaryBtn": "Contact",
+    "scrollDown": "Scroll Down"
+  },
+  "About": {
+    "title": "About Me",
+    "greeting": "Hello, I'm",
+    "name": "Michael Quesada Vega",
+    "text": "Web developer, passionate about creating dynamic and functional web applications. My dedication and curiosity to learn new technologies drives me to continuously improve my skills.",
+    "button": "Explore CV",
+    "projectStats": "Total Projects",
+    "certificateStats": "Certificates",
+    "experienceStats": "Years of experience"
+  },
+  "Portfolio": {
+    "title": "Portfolio Showcase",
+    "text": "Explore my journey through the projects I've developed.",
+    "projects": "Projects",
+    "certificates": "Certificates"
+  },
+  "Projects": {
+    "details": "Details",
+    "backButton": "Back",
+    "breadCrump": "Projects",
+    "tech": "Technologies Used",
+    "project-fullstack-ecommerce": {
+      "title": "Full Stack Ecommerce",
+      "description": "Shopper is a full-stack ecommerce project based on a online  clothing store, In this project technologies such as ReactJS in the frontend, Java in the backend and a Supabase postgreSql database were used."
+    },
+    "project-hausdorff-school": {
+      "title": "Escuela Hausdorff",
+      "description": "Escuela de matemática Hausdorff is a real-client project, it was built using CMS Wordpress and Elementor. With more than 10 years this bussiness has helped more than 1000 students around the Central and South America."
+    },
+    "project-mediabot-portfolio": {
+      "title": "Mediabot Portfolio",
+      "description": "Mediabot Portfolio is a concept project based on a web development services website. In this project, technologies such as HTML, CSS, JAVASCRIPT and PHP were used."
+    },
+    "project-nike-ecommerce": {
+      "title": "Nike Ecommerce",
+      "description": "Nike Ecommerce is a concept project based on an ecommerce website dedicated to sell nike products. In this project technologies such as HTML, CSS and JAVASCRIPT were used."
+    },
+    "project-villa-noemy": {
+      "title": "Villa Noemy",
+      "description": "Villa Noemy is a real-client project developed in Wordpress, using Elementor, motopress plugin. It has functionalities such as payment methods, booking, contact form and SEO best practices."
+    }
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "subtitle": "Got a question? Send a message and I'll get back to you soon.",
+    "formTitle": "Get In Touch",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formMessage": "Your Message",
+    "formButton": "Send Message",
+    "connectTitle": "Conect with Me",
+    "formErrors": {
+      "nameReq": "Name is required",
+      "nameLength": "Name must be at least 3 characters",
+      "nameValid": "Name cannot contain numbers or special characters",
+      "emailReq": "Email is required",
+      "emailValid": "Please enter a valid email",
+      "messageReq": "Message is required",
+      "messageLength": "Message may not exceed 255 characters"
+    },
+    "formProcess": {
+      "sendingFormTitle": "Sending...",
+      "sendingFormText": "Please wait while we send your message",
+      "messageSent": "Message Sent!!!",
+      "messageSentText": "Your message has been sent successfully",
+      "messageErrorText": "We couldn't send your message, please try again..."
+    }
+  }
+}

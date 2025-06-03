@@ -1,0 +1,51 @@
+.modal__overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+  backdrop-filter: blur(10px);
+}
+
+.modal {
+  width: 90%;
+  height: 30rem;
+  transition: all 300ms ease-in-out;
+}
+
+.modal img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.modal button {
+  position: absolute;
+  bottom: 3vh;
+  right: 3vw;
+  appearance: none;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: var(--glass);
+  color: #fff;
+  opacity: 0.6;
+  transition: all 300ms ease;
+}
+
+.modal > button:hover {
+  opacity: 1;
+}
+
+@media (width >= 1024px) {
+  .modal {
+    width: 50%;
+    height: 30rem;
+  }
+
+  .modal button {
+    top: 3vh;
+    right: 3vw;
+    bottom: initial;
+  }
+}

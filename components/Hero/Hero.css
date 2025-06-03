@@ -1,0 +1,151 @@
+.hero__section {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero__section .container {
+  padding-top: 4rem;
+  padding-bottom: 60px;
+  gap: initial;
+}
+
+.hero__text-container {
+  width: 100%;
+  gap: 1.5rem;
+  padding-top: 5rem;
+}
+
+.hero__title {
+  width: 100%;
+  color: var(--text-color);
+  font-size: 3.5rem;
+  line-height: 60px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero__title span {
+  display: inline-block;
+  background: linear-gradient(90deg, #3c3289, #9384b6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile__img {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--border-light);
+  border-radius: 100px;
+  object-fit: cover;
+  background: linear-gradient(90deg, #3c3289, #9384b6);
+  margin-bottom: -2px;
+}
+
+.hero__separator {
+  display: inline-block;
+  width: 4rem;
+  height: 0.8rem;
+  background: var(--gradient);
+  margin-bottom: 10px;
+}
+
+.hero__paragraph {
+  width: min(100%, 80ch);
+  text-align: center;
+}
+
+.hero__btns-container {
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.scroll__down {
+  display: flex;
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+}
+
+.scroll__down > img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.scroll__down.disable {
+  opacity: 0;
+}
+
+.scroll__down > p {
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@media (width >=1024px) {
+  .hero__section {
+    position: relative;
+  }
+
+  .hero__section .container {
+    padding-top: initial;
+    padding-inline: 10px;
+    padding-bottom: 0;
+  }
+
+  .hero__text-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+  }
+
+  .hero__title {
+    font-size: 5.5rem;
+    line-height: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+
+  .profile__img {
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-bottom: -2px;
+  }
+
+  .hero__separator {
+    width: 5rem;
+    height: 0.8rem;
+    margin-bottom: 25px;
+  }
+
+  .hero__btns-container {
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+
+  .hero__btns-container .primary__btn:nth-child(2):hover .icon {
+    transform: initial;
+    margin-left: 0.3rem;
+  }
+
+  .scroll__down {
+    margin-top: 2rem;
+    bottom: 3vh;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.project__card {
+  width: 100%;
+  max-width: 25.2rem;
+  gap: 1rem;
+  background-color: var(--glass-light);
+  padding: 1.5rem;
+  border: solid 1px var(--border-light);
+  border-radius: 8px;
+  transition: all 300ms ease;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.project__card img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.project__card-content {
+  width: 100%;
+}
+
+.project__card-content p {
+  font-family: 'Oswald Variable', sans-serif;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  height: 3em;
+}
+
+.project__card-footer {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.project__link {
+  gap: 0.5rem;
+  color: var(--action-color);
+}
+
+.project__card-footer .project__link:nth-child(1) .project__icon {
+  margin-bottom: -3px;
+}
+
+.details {
+  padding: 5px 10px;
+  background-color: var(--glass);
+  color: var(--text-color);
+  border-radius: 8px;
+}
+
+.project__icon {
+  width: 1.3rem;
+}
+
+.project__card:hover {
+  background-color: var(--glass);
+}
+
+.project__card:hover img {
+  transform: scale(1.01);
+}

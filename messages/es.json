@@ -1,0 +1,93 @@
+{
+  "MetaTags": {
+    "title": "Portafolio - Mike.Vega",
+    "description": "Sitio web de portafolio de Michael Quesada Vega, Desarrollador web y Diseñador UI",
+    "keywords": "desarrollador web, frontend, backend, fullstack, react, nextjs, typescript",
+    "author": "Michael Quesada Vega",
+    "ogTitle": "Portafolio de Mike.Vega | Desarrollador Web | Deiseñador UI",
+    "ogImage": "./portfolio-screenshot.png",
+    "twitterImage": "./portfolio-screenshot.png"
+  },
+  "MenuItems": {
+    "home": "inicio",
+    "about": "acerca",
+    "portfolio": "portafolio",
+    "contact": "contacto"
+  },
+  "Hero": {
+    "title": "<span>Desarr<img></img>llador</span> web<br></br> Diseñador UI <div></div> Entusiasta de la Tecnología.",
+    "heroText": "Comprometido con la creación de productos innovadores, funcionales y fáciles de usar para ayudar a las personas a convertir sus ideas en experiencias digitales.",
+    "primaryBtn": "Projectos",
+    "secondaryBtn": "Contacto",
+    "scrollDown": "Deslizar hacia abajo"
+  },
+  "About": {
+    "title": "Sobre Mi",
+    "greeting": "Hola, Soy",
+    "name": "Michael Quesada Vega",
+    "text": "Desarrollador web apasionado por crear aplicaciones web funcionales y dinámicas. Mi dedicación y curiosidad por aprender me impulsan a estar siempre mejorando mis habilidades.",
+    "button": "Explorar CV",
+    "projectStats": "Proyectos Totales",
+    "certificateStats": "Certificados",
+    "experienceStats": "Años de Experiencia"
+  },
+  "Portfolio": {
+    "title": "Portafolio",
+    "text": "Descubre mi ruta de aprendizaje a través de los proyectos que he desarrollado y los certificados que he obtenido.",
+    "projects": "Proyectos",
+    "certificates": "Certificados"
+  },
+  "Projects": {
+    "details": "Detalles",
+    "backButton": "Regresar",
+    "breadCrump": "Projectos",
+    "tech": "Technologías Utilizadas",
+    "project-fullstack-ecommerce": {
+      "title": "Full Stack Ecommerce",
+      "description": "Shopper es un proyecto full-stack de ecommerce basado en una tienda online de ropa, En este proyecto se utilizaron tecnologías como ReactJS en el frontend, Java en el backend y una base de datos Supabase postgreSql."
+    },
+    "project-hausdorff-school": {
+      "title": "Escuela Hausdorff",
+      "description": "Escuela de matemática Hausdorff es un proyecto de un cliente real, fue construido usando CMS Wordpress y Elementor. Con más de 10 años esta empresa ha ayudado a más de 1000 estudiantes alrededor de Centro y Sudamérica."
+    },
+    "project-mediabot-portfolio": {
+      "title": "Mediabot Portfolio",
+      "description": "Mediabot Portfolio es un proyecto conceptual basado en un sitio web de servicios de desarrollo web. En este proyecto se utilizaron tecnologías como HTML, CSS, JAVASCRIPT y PHP."
+    },
+    "project-nike-ecommerce": {
+      "title": "Nike Ecommerce",
+      "description": "Nike Ecommerce es un proyecto conceptual basado en un sitio web de comercio electrónico dedicado a la venta de productos Nike. En este proyecto se utilizaron tecnologías como HTML, CSS y JAVASCRIPT."
+    },
+    "project-villa-noemy": {
+      "title": "Villa Noemy",
+      "description": "Villa Noemy es un proyecto de cliente real desarrollado en Wordpress, utilizando Elementor, plugin de motopress. Cuenta con funcionalidades como métodos de pago, reserva, formulario de contacto y las mejores prácticas de SEO."
+    }
+  },
+  "Contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes una pregunta? Envíame un mensaje y te responderé pronto.",
+    "formTitle": "Ponte en Contacto",
+    "formName": "Tu Nombre",
+    "formEmail": "Tu Correo",
+    "formMessage": "Tu Mensaje",
+    "formButton": "Enviar Mensaje",
+    "connectTitle": "Conecta conmigo",
+    "formErrors": {
+      "nameReq": "El campo Nombre es requerido",
+      "nameLength": "El campo nombre debe tener al menos 3 caracteres",
+      "nameValid": "El campo nombre no debe contener números o caracteres especiales",
+      "emailReq": "El campo Email es requerido",
+      "emailValid": "PPor favor ingresa un Email válido",
+      "messageReq": "El campo Mensaje es requerido",
+      "messageLength": "Texto muy largo. El campo mensaje no debe exceder los 255 caracteres"
+    },
+    "formProcess": {
+      "sendingFormTitle": "Enviando...",
+      "sendingFormText": "Por favor espera mientras enviamos tú mensaje",
+      "messageSent": "Mensaje Enviado!!!",
+      "messageSentText": "Tu mensaje se ha enviado satisfactoriamente",
+      "messageError": "Error!!!",
+      "messageErrorText": "No pudimos enviar tú mensaje, por favor intenta nuevamente..."
+    }
+  }
+}
