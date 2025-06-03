@@ -40,13 +40,11 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <head>
-        <GoogleAnalytics gaId='G-6RY5XLBCK1' />
-      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <AppProvider>{children}</AppProvider>
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId='G-6RY5XLBCK1' />
       </body>
     </html>
   );
