@@ -3,7 +3,7 @@ import './globals.css';
 import { AppProvider } from '@/context/AppContext';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 export default async function RootLayout({
   children,
@@ -16,7 +16,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GA_ID!} />
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
