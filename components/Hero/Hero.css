@@ -105,15 +105,16 @@
   }
 
   .hero__title {
-    font-size: 5.5rem;
+    font-size: 5rem;
     line-height: 100px;
     letter-spacing: 5px;
     text-align: center;
+    margin-top: initial;
   }
 
   .profile__img {
-    width: 4.7rem;
-    height: 4.7rem;
+    width: 4.5rem;
+    height: 4.5rem;
     margin-bottom: -2px;
   }
 
