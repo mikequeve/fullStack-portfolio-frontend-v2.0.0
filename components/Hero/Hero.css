@@ -1,6 +1,5 @@
 .hero__section {
-  min-height: 100dvh;
-  overflow: hidden;
+  height: 100dvh;
 }
 
 .hero__section .container {
@@ -63,7 +62,6 @@
 }
 
 .scroll__down {
-  display: flex;
   position: absolute;
   bottom: 2vh;
   left: 50%;

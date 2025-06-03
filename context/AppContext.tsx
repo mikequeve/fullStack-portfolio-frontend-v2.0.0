@@ -32,9 +32,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
         }
 
         setProjects(projectsResp.data);
-        console.log(projectsResp.data);
         setCertificates(certificatesResp.data);
-        console.log(certificatesResp.data);
       } catch (error) {
         if (axios.isAxiosError(error)) {
           setError(

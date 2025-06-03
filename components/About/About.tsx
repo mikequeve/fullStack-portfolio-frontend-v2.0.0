@@ -34,7 +34,7 @@ const About = () => {
     <section className='flex-center site__about' id='About'>
       <article className='flex-column container'>
         <div className='flex-column section__subtitle'>
-          <h2 className='subtitle' data-aos='fade-up' data-aos-duration='600'>
+          <h2 className='subtitle' data-aos='fade-up' data-aos-duration='800'>
             {t('title')}
           </h2>
         </div>

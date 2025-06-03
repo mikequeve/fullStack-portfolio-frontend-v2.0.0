@@ -3,8 +3,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Hero.css';
 import { SquareArrowOutUpRight, MailIcon } from 'lucide-react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 import { useTranslations } from 'next-intl';
 
 const Hero: React.FC = () => {
@@ -45,18 +43,6 @@ const Hero: React.FC = () => {
         clearTimeout(scrollTimeout.current);
       }
     };
-  }, []);
-
-  useEffect(() => {
-    const initAOS = (): void => {
-      Aos.init({
-        once: false,
-        offset: 10,
-      });
-    };
-    initAOS();
-    window.addEventListener('resize', initAOS);
-    return () => window.removeEventListener('resize', initAOS);
   }, []);
 
   return (
