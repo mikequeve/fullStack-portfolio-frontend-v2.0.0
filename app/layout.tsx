@@ -15,12 +15,14 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <AppProvider>{children}</AppProvider>
         </NextIntlClientProvider>
       </body>
-      <GoogleAnalytics gaId='G-6RY5XLBCK1' />
     </html>
   );
 }
