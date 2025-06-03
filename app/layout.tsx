@@ -41,7 +41,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <GoogleAnalytics gaId={process.env.NEXT_} />
+        <GoogleAnalytics gaId='G-6RY5XLBCK1' />
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
