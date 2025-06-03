@@ -15,8 +15,8 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <GoogleTagManager gtmId='G-ZHDVTEFPSH' />
       <body>
-        <GoogleTagManager gtmId='G-ZHDVTEFPSH' />
         <NextIntlClientProvider messages={messages}>
           <AppProvider>{children}</AppProvider>
         </NextIntlClientProvider>
