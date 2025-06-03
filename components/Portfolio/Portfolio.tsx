@@ -7,7 +7,6 @@ import { useAppContext } from '@/context/AppContext';
 import ProjectCard from '../UI/ProjectCard/ProjectCard';
 import { useTranslations } from 'next-intl';
 import CertificateCard from '../UI/CertificateCard/CertificateCard';
-import Aos from 'aos';
 import Modal from '../UI/Modal/Modal';
 
 const Portfolio: React.FC = () => {
@@ -15,12 +14,6 @@ const Portfolio: React.FC = () => {
     useAppContext();
   const [content, setContent] = useState<boolean>(true);
   const t = useTranslations('Portfolio');
-
-  useEffect(() => {
-    Aos.init({
-      once: false,
-    });
-  }, []);
 
   return (
     <>

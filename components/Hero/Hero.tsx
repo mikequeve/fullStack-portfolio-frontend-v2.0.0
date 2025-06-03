@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const initAOS = (): void => {
       Aos.init({
-        once: true,
+        once: false,
         offset: 10,
       });
     };
