@@ -6,6 +6,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 import { Messages } from '@/utils/types.d';
 import { Metadata } from 'next';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import Background from '@/components/Background/Background';
 
 export async function generateMetadata(): Promise<Metadata> {
   const messages = (await getMessages()) as Messages;
@@ -42,7 +43,10 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <AppProvider>{children}</AppProvider>
+          <AppProvider>
+            <Background/>
+            {children}
+          </AppProvider>
         </NextIntlClientProvider>
         <GoogleAnalytics gaId='G-6RY5XLBCK1' />
       </body>

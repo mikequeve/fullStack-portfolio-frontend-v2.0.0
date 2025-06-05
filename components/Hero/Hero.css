@@ -1,5 +1,5 @@
 .hero__section {
-  height: 100dvh;
+  min-height: 100vh;
 }
 
 .hero__section .container {

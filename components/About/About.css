@@ -1,3 +1,7 @@
+.site__about {
+  min-height: 100vh;
+}
+
 .about__content {
   flex-wrap: wrap;
   width: 100%;
