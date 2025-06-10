@@ -1,8 +1,9 @@
 .hero__section {
-  min-height: 100vh;
+  height: 90vh;
 }
 
 .hero__section .container {
+  position: relative;
   padding-top: 4rem;
   padding-bottom: 60px;
   gap: initial;
@@ -63,7 +64,7 @@
 
 .scroll__down {
   position: absolute;
-  bottom: 2vh;
+  bottom: 5vh;
   left: 50%;
   transform: translateX(-50%);
   width: 10rem;
@@ -88,6 +89,7 @@
 @media (width >=1024px) {
   .hero__section {
     position: relative;
+    height: 100vh;
   }
 
   .hero__section .container {

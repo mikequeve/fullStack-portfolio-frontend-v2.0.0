@@ -55,7 +55,7 @@ h6 {
 }
 
 h2 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   background: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
@@ -181,6 +181,10 @@ a {
     font-size: 5rem;
   }
 
+  h2 {
+    font-size: 3rem;
+  }
+
   h3 {
     font-size: 2rem;
   }
@@ -216,9 +220,5 @@ a {
   .section__subtitle {
     text-align: center;
     gap: 1.5rem;
-  }
-
-  .section__subtitle .subtitle {
-    line-height: 80px;
   }
 }
