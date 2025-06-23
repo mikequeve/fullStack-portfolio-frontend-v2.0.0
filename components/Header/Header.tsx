@@ -99,7 +99,11 @@ const Header: React.FC = () => {
             className='flex-center menu__btn-container'
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X /> : <AlignJustify />}
+            {isOpen ? (
+              <X color='#8a8a8a' size='2rem' />
+            ) : (
+              <AlignJustify color='#8a8a8a' size='2rem' />
+            )}
           </div>
         </article>
       </header>

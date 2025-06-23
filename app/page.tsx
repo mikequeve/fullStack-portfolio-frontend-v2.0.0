@@ -6,6 +6,7 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import Hero from '@/components/Hero/Hero';
 import Portfolio from '@/components/Portfolio/Portfolio';
+import WhatsappBtn from '@/components/UI/WhatsappBtn/WhatsappBtn';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -28,6 +29,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <WhatsappBtn />
     </>
   );
 }

@@ -77,7 +77,7 @@
       "nameLength": "El campo nombre debe tener al menos 3 caracteres",
       "nameValid": "El campo nombre no debe contener números o caracteres especiales",
       "emailReq": "El campo Email es requerido",
-      "emailValid": "PPor favor ingresa un Email válido",
+      "emailValid": "Por favor ingresa un Email válido",
       "messageReq": "El campo Mensaje es requerido",
       "messageLength": "Texto muy largo. El campo mensaje no debe exceder los 255 caracteres"
     },
