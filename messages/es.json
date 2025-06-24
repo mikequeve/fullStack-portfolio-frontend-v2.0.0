@@ -88,9 +88,9 @@
       "messageSentText": "Tu mensaje se ha enviado satisfactoriamente",
       "messageError": "Error!!!",
       "messageErrorText": "No pudimos enviar tú mensaje, por favor intenta nuevamente..."
-    },
-    "whatsappBtn": {
-      "title": "¡ Contactar vía whatsapp !"
     }
+  },
+  "whatsappBtn": {
+    "title": "¡Contactar vía whatsapp!"
   }
 }

@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import './WhatsappBtn.css';
 import { useTranslations } from 'next-intl';
