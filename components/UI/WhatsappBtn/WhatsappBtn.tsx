@@ -1,7 +1,9 @@
 import React from 'react';
 import './WhatsappBtn.css';
+import { useTranslations } from 'next-intl';
 
 const WhatsappBtn: React.FC = () => {
+  const t = useTranslations('whatsappBtn');
   return (
     <a
       href='https://api.whatsapp.com/send?phone=50660488396'
@@ -10,7 +12,7 @@ const WhatsappBtn: React.FC = () => {
       className='flex-center primary__btn whats-btn'
     >
       <div className='flex-column  whats-message__container'>
-        <span>¡ Contáctame vía whatsapp !</span>
+        <span>{t('title')}</span>
       </div>
       <img src='./logos/whatsapp.png' alt='' />
     </a>

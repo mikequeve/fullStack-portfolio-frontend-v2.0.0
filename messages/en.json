@@ -88,6 +88,9 @@
       "messageSent": "Message Sent!!!",
       "messageSentText": "Your message has been sent successfully",
       "messageErrorText": "We couldn't send your message, please try again..."
+    },
+    "whatsappBtn": {
+      "title": "Contact me via whatsapp!"
     }
   }
 }
