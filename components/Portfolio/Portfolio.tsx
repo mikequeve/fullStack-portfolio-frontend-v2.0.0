@@ -8,10 +8,18 @@ import ProjectCard from '../UI/ProjectCard/ProjectCard';
 import { useTranslations } from 'next-intl';
 import CertificateCard from '../UI/CertificateCard/CertificateCard';
 import Modal from '../UI/Modal/Modal';
+import { TriangleAlert } from 'lucide-react';
 
 const Portfolio: React.FC = () => {
-  const { projects, certificates, loading, isModalOpen, setIsModalOpen, selectedImg } =
-    useAppContext();
+  const {
+    projects,
+    certificates,
+    loading,
+    isModalOpen,
+    setIsModalOpen,
+    selectedImg,
+    error,
+  } = useAppContext();
   const [content, setContent] = useState<boolean>(true);
   const t = useTranslations('Portfolio');
 
@@ -37,6 +45,13 @@ const Portfolio: React.FC = () => {
               {t('certificates')}
             </button>
           </div>
+          {error && (
+            <div className='flex-column error-message'>
+              <TriangleAlert size={'4rem'} />
+              <span>OOOPS!!!</span>
+              {t('error-message')}
+            </div>
+          )}
           {loading ? (
             <Loader />
           ) : (

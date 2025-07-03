@@ -36,7 +36,8 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
       } catch (error) {
         if (axios.isAxiosError(error)) {
           setError(
-            error.response?.data?.message || 'Error en la conexión con el servidor'
+            error.response?.data?.message ||
+              'Disculpa, estamos experimentando problemas al conectar con el servidor.'
           );
         } else {
           setError((error as Error).message || 'Error desconocido');
@@ -66,7 +67,10 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
       return project;
     } catch (error) {
       if (axios.isAxiosError(error)) {
-        setError(error.response?.data?.message || 'Error en la conexión con el servidor');
+        setError(
+          error.response?.data?.message ||
+            'Disculpa, estamos teniendo problemas al conectar con el servidor.'
+        );
       } else {
         setError((error as Error).message || 'Error desconocido');
       }

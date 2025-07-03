@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
             data-aos='fade-up'
             data-aos-duration='1200'
           >
-            <a href='#Projects' className='primary__btn'>
+            <a href='#Portfolio' className='primary__btn'>
               {t('primaryBtn')} <SquareArrowOutUpRight className='icon' />
             </a>
             <a href='#Contact' className='flex-center primary__btn'>

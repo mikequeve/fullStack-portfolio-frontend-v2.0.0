@@ -35,7 +35,8 @@
     "title": "Portafolio",
     "text": "Descubre mi ruta de aprendizaje a través de los proyectos que he desarrollado y los certificados que he obtenido.",
     "projects": "Proyectos",
-    "certificates": "Certificados"
+    "certificates": "Certificados",
+    "error-message": "Disculpa, estamos experimentando problemas al conectar con el servidor."
   },
   "Projects": {
     "details": "Detalles",

@@ -34,9 +34,10 @@
   },
   "Portfolio": {
     "title": "Portfolio Showcase",
-    "text": "Explore my journey through the projects I've developed.",
+    "text": "Explore my learning path through the projects I have developed and the certificates I have obtained.",
     "projects": "Projects",
-    "certificates": "Certificates"
+    "certificates": "Certificates",
+    "error-message": "Sorry, we're having troubles connecting to server."
   },
   "Projects": {
     "details": "Details",
